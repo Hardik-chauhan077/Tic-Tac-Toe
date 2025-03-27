@@ -1,24 +1,16 @@
-Tic-Tac-Toe in Java
-
-A simple command-line Tic-Tac-Toe game implemented in Java.
+Tic-Tac-Toe GUI Application 🎮
+A simple and interactive Tic-Tac-Toe game built with Java Swing, allowing two players to compete in a fun and engaging desktop environment. This project demonstrates Java GUI development and event-driven programming concepts.
 
 📌 Features
-Two-player mode
+✅ User-Friendly Interface – Clean and intuitive design for smooth gameplay.
+✅ Two-Player Mode – Play against a friend on the same device.
+✅ Win Detection – Automatically checks for winners or a draw after each move.
+✅ Grid-Based Interaction – Players make moves by clicking on grid cells.
+✅ Restart Option – Easily reset the game to start a new match.
 
-Command-line interface
-
-Detects wins, draws, and invalid moves
-
-Simple and efficient implementation
-
-🕹️ Game Rules 
-Players take turns entering positions (1-9).
-
-The first player to get three marks in a row (horizontal, vertical, or diagonal) wins.
-
-If the board is full and no one wins, it’s a draw.
-
-
-🔧 Technologies Used
-Java
-
+⚙️ Technical Details
+🖥 Programming Language: Java
+🖼 GUI Framework: Java Swing
+🔧 Components Used: JFrame, JLabel, JButton, JPanel, GridLayout
+🎯 Event Handling: Uses ActionListener for user interactions and game logic
+🧵 Thread Management: Uses SwingUtilities.invokeLater() for smooth UI updates
